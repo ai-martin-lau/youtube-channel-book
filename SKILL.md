@@ -43,8 +43,11 @@ node "$SKILL/scripts/list_videos.mjs" "@某handle 或 频道URL 或 频道名" "
 ```
 
 - 输出 `videos.tsv`：每行 `videoId<TAB>标题`。
-- 只抓 `/videos`(长视频)。Shorts 是 <60s 短片、信息密度低，默认不纳入；
-  若用户明确要 Shorts，另开 `/shorts` 页同法抓取。
+- **默认抓全量** = `/videos`(长视频) + `/shorts`(短视频)。用户说"全部/全集/所有视频"
+  时**必须含 Shorts**，不要自作主张排除（教训：曾默默砍掉 Shorts 被用户纠正）。
+  Shorts 页同法滚动累加，选择器 `a[href*="/shorts/"]`，id 用 `/shorts/<id>` 提取；
+  下载时 watch URL 用 `https://www.youtube.com/shorts/<id>` 或 `watch?v=<id>` 均可。
+  只有用户明确说"只要长视频"时才跳过 Shorts。
 - 若只给了频道名(非 @handle)：先用 web-access 搜一下定位到 `@handle` 再传入。
 
 ### ② 批量下字幕(关键：android_vr 客户端)
