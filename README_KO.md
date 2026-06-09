@@ -68,3 +68,7 @@ python3 "$SKILL/scripts/json3_to_text.py" "$WORK/subs" "$WORK/txt"
 ## License
 
 MIT
+
+## 스타 히스토리
+
+[![스타 히스토리 차트](https://api.star-history.com/svg?repos=ai-martin-lau/youtube-channel-book&type=Date)](https://star-history.com/#ai-martin-lau/youtube-channel-book&Date)
