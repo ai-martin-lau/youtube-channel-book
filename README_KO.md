@@ -2,10 +2,6 @@
   <a href="README.md">简体中文</a> · <a href="README_EN.md">English</a> · <a href="README_JA.md">日本語</a> · <a href="README_KO.md">한국어</a> · <a href="README_ES.md">Español</a>
 </p>
 
-<p align="center">
-  <img src="assets/cover.png" alt="youtube-channel-book" width="100%">
-</p>
-
 # youtube-channel-book
 
 > YouTube 채널 하나를 입력하면 그 채널의 **모든 영상 자막**을 자동으로 크롤링해, 학습용 **작은 책**으로 증류합니다.
