@@ -2,10 +2,6 @@
   <a href="README.md">简体中文</a> · <a href="README_EN.md">English</a> · <a href="README_JA.md">日本語</a> · <a href="README_KO.md">한국어</a> · <a href="README_ES.md">Español</a>
 </p>
 
-<p align="center">
-  <img src="assets/cover.png" alt="youtube-channel-book" width="100%">
-</p>
-
 # youtube-channel-book
 
 > YouTube チャンネルを 1 つ入力するだけで、その**全動画の字幕**を自動でクロールし、学習用の**小さな本**に蒸留します。
