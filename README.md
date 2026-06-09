@@ -73,3 +73,7 @@ python3 "$SKILL/scripts/json3_to_text.py" "$WORK/subs" "$WORK/txt"
 ## License
 
 MIT
+
+## Star 趋势
+
+[![Star 趋势图](https://api.star-history.com/svg?repos=ai-martin-lau/youtube-channel-book&type=Date)](https://star-history.com/#ai-martin-lau/youtube-channel-book&Date)
