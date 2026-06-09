@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/cover.png" alt="youtube-channel-book" width="100%">
+</p>
+
 # youtube-channel-book
 
 > 输入一个 YouTube 频道，自动爬下它**全部视频的字幕**，蒸馏成一本可供学习的**小书**。
