@@ -30,9 +30,15 @@ metadata:
 - **Python ≥ 3.10**：跑 yt-dlp。系统自带的 `python3` 若是 3.9，换 `python3.11`/`python3.12`。
 - **yt-dlp**：脚本会自动下 zipapp 到 `/tmp/yt-dlp.pyz`(GitHub release，走直连)。
 
+## 输出目录约定（默认）
+
+**所有产出统一落到项目根下的 `skill产出/<频道handle>/`**（成书、videos.tsv、subs/、txt/ 等）。
+即 `WORK="<项目根>/skill产出/<handle>"`，例：`/Users/martin/Desktop/图文自媒体/skill产出/dankoe/`。
+跑批前先 `mkdir -p "$WORK"`。除非用户另行指定，一律用此目录，不要散落到别处。
+
 ## 流水线(5 步)
 
-设工作目录 `WORK=<某个输出目录>`，下面命令里的 `SKILL` 指本 skill 根目录。
+设工作目录 `WORK="<项目根>/skill产出/<频道handle>"`（见上）；`SKILL` 指本 skill 根目录。
 
 ### ① 解析频道 + 抓全部视频清单
 
